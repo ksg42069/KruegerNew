@@ -90,9 +90,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _FoamAmount: 2.71
+    - _FoamAmount: 6.6
     - _FoamCutoff: 4.76
-    - _FoamScale: 100
+    - _FoamScale: 800
     - _FoamSpeed: 0.2
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -111,7 +111,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WaterDepth: 9.23
+    - _WaterDepth: 5.49
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
