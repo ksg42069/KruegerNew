@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class BookController : MonoBehaviour
 {
-    
+    //public GameObject aniDoors;
     public static BookController instance;
     List<int> bookList = new List<int>();
-    
+    // Start is called before the first frame update
     void Start()
     {
+        //aniDoors = GetComponent<GameObject>();
+        //aniDoors = gameObject;
         instance = this;
+
     }
 
     // Update is called once per frame
@@ -18,6 +21,7 @@ public class BookController : MonoBehaviour
     {
         if(bookList.Count == 4)
         {
+            //aniDoors.GetComponent<Animator>().Play("opendoor");
             this.GetComponent<Animator>().Play("opendoor");
         }
     }
