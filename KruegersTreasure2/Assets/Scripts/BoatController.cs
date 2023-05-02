@@ -21,12 +21,12 @@ public class BoatController : MonoBehaviour
         }
     }
 
-    public void AddBook(int num)
+    public void AddWing(int num)
     {
         wingList.Add(num);
     }
 
-    public void RemoveBook(int num)
+    public void RemoveWing(int num)
     {
         wingList.Remove(num);
     }
