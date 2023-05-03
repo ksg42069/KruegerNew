@@ -1,30 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
+using Unity.XR.CoreUtils;
 
 public class UnlockDoor : MonoBehaviour
 {
-    public GameObject key, moveDoor, nomoveDoor;
-    public HingeJoint hinge;
+    public GameObject key;
+    public Animation anim;
 
+    private void Start()
+    {
+        
+    }
     public void GrabKey()
     {
-        StartCoroutine(LevelEnd());
-        hinge = moveDoor.GetComponent<HingeJoint>();
-        hinge.useMotor = false;
+        StartCoroutine(LevelEnd());                
     }
 
     IEnumerator LevelEnd()
     {
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(1.0f);
 
-        key.SetActive(false);
-        nomoveDoor.SetActive(false);
-
-        moveDoor.SetActive(true);
+        anim.Play();   
 
         yield return new WaitForSeconds(0.5f);
-
-        hinge.useMotor = true;
+        
+        key.SetActive(false);
     }
 }
