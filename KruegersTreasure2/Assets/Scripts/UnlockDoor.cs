@@ -23,7 +23,7 @@ public class UnlockDoor : MonoBehaviour
     {
         yield return new WaitForSeconds(1.0f);
 
-        anim.Play();   
+        anim.Play("openDoor");   
 
         yield return new WaitForSeconds(0.5f);
         
