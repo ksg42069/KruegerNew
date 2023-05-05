@@ -14,7 +14,7 @@ public class CloseMainGate : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Body"))
+        if (other.CompareTag("Player"))
         {
             anim.Play();
             sound.Play();
