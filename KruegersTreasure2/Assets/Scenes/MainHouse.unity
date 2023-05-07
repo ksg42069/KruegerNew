@@ -25935,6 +25935,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: flask03
       objectReference: {fileID: 0}
+    - target: {fileID: 1613470154832850438, guid: 75bc75733fa59094688a5139007ddf3c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 46427034c065361418d418c4b3c3a3aa, type: 2}
     - target: {fileID: 6271806642879249081, guid: 75bc75733fa59094688a5139007ddf3c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -28269,6 +28274,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5819328720118838395, guid: c4f2f88a9a6ee6e4c834f0960f8a93e6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 46427034c065361418d418c4b3c3a3aa, type: 2}
     - target: {fileID: -2417167741163616272, guid: c4f2f88a9a6ee6e4c834f0960f8a93e6,
         type: 3}
       propertyPath: m_LocalPosition.y
