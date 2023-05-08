@@ -1,17 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
+using Unity.XR.CoreUtils;
 
 public class TrophyController : MonoBehaviour
 {
-    public static TrophyController instance;
-    public Animation anim;
+    public static TrophyController instance;    
     List<int> trophyList = new List<int>();
+
+    public GameObject key;
     
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
+        //anim = GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -19,7 +24,7 @@ public class TrophyController : MonoBehaviour
     {
         if (trophyList.Count == 4)
         {
-            anim.Play("TrophyGunCover");
+            key.SetActive(true);
         }
     }
 

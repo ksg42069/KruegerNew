@@ -10,9 +10,9 @@ public class TrophyTrigger : MonoBehaviour
     {
         if (other.CompareTag("Trophy"))
         {
-            if (other.TryGetComponent<TrophyID>(out TrophyID boat))
+            if (other.TryGetComponent<TrophyID>(out TrophyID trophy))
             {
-                if (boat.tID == ID)
+                if (trophy.tID == ID)
                 {
                     TrophyController.instance.AddTrophy(ID);
                 }
@@ -23,9 +23,9 @@ public class TrophyTrigger : MonoBehaviour
     {
         if (other.CompareTag("Trophy"))
         {
-            if (other.TryGetComponent<TrophyID>(out TrophyID boat))
+            if (other.TryGetComponent<TrophyID>(out TrophyID trophy))
             {
-                if (boat.tID == ID)
+                if (trophy.tID == ID)
                 {
                     TrophyController.instance.RemoveTrophy(ID);
                 }
