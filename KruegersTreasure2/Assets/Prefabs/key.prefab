@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 7783352864296926224}
   - component: {fileID: 7783352864296926319}
   - component: {fileID: 7783352864296926318}
-  - component: {fileID: 7783352864296926317}
+  - component: {fileID: 7426177556854385482}
   m_Layer: 2
   m_Name: key
   m_TagString: Untagged
@@ -506,7 +506,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
@@ -537,19 +537,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7783352864296926317}
-        m_TargetAssemblyTypeName: UnlockDoor, Assembly-CSharp
-        m_MethodName: GrabKey
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -635,20 +623,22 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &7783352864296926317
-MonoBehaviour:
+--- !u!111 &7426177556854385482
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7783352864967858491}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74d6e58b08edf3949920894dcd6d9ef8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: {fileID: 7783352864967858491}
-  anim: {fileID: 0}
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: ce6c352120f09ba47ba2b4fcfc5465f2, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: ce6c352120f09ba47ba2b4fcfc5465f2, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &7783352865145051432
 GameObject:
   m_ObjectHideFlags: 0
