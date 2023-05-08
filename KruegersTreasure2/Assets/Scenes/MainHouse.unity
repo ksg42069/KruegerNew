@@ -8249,22 +8249,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 482280984}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &482280990
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482280988}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: 5d1faa50900a87b47b318829c17877e3, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!64 &482280997
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13890,7 +13874,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29367309541df964694336ff68a1b80a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 482280990}
+  anim: {fileID: 801023877}
+--- !u!111 &801023877
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801023875}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 5d1faa50900a87b47b318829c17877e3, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &805847842
 GameObject:
   m_ObjectHideFlags: 0
