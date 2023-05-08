@@ -19,7 +19,7 @@ public class TrophyController : MonoBehaviour
     {
         if (trophyList.Count == 4)
         {
-            anim.Play();
+            anim.Play("TrophyGunCover");
         }
     }
 

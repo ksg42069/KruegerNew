@@ -7,7 +7,7 @@ using Unity.XR.CoreUtils;
 
 public class UnlockDoor : MonoBehaviour
 {
-    public Animation anim, key;
+    public Animation anim;
     public GameObject trigger;
 
     private void Start()
@@ -22,10 +22,10 @@ public class UnlockDoor : MonoBehaviour
 
     IEnumerator LevelEnd()
     {
-        key.Play();
-        trigger.SetActive(true);
         
-        yield return new WaitForSeconds(1.0f);
+        trigger.SetActive(true);        
+
+        yield return new WaitForSeconds(2.0f);
 
         anim.Play("openDoor");     
     }
