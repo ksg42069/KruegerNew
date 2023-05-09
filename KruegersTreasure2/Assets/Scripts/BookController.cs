@@ -6,13 +6,12 @@ public class BookController : MonoBehaviour
 {
     public static BookController instance;
     List<int> bookList = new List<int>();
-    // Start is called before the first frame update
+    
     void Start()
     {
         instance = this;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(bookList.Count == 4)

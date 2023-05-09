@@ -9,14 +9,14 @@ public class TrophyController : MonoBehaviour
 {
     public static TrophyController instance;    
     List<int> trophyList = new List<int>();
-
+    public Animation anim;
     public GameObject key;
     
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
-        //anim = GetComponent<Animation>();
+        anim = GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -25,6 +25,7 @@ public class TrophyController : MonoBehaviour
         if (trophyList.Count == 4)
         {
             key.SetActive(true);
+            anim.Play();
         }
     }
 
