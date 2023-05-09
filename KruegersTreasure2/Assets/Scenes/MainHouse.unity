@@ -24861,6 +24861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CHIMNEY
       objectReference: {fileID: 0}
+    - target: {fileID: 5896187250291909674, guid: 68795f5f2699c4c47abc027470830afc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0506699baf2cf214ab7fe61a76e417a6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68795f5f2699c4c47abc027470830afc, type: 3}
 --- !u!4 &1258718764 stripped
@@ -33593,7 +33598,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: de42c68c63f66ea46a66bf36c9a32d20,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de42c68c63f66ea46a66bf36c9a32d20,
         type: 3}
@@ -35657,7 +35662,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c941bc3e79d821c4ab9392d67a717bcb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c941bc3e79d821c4ab9392d67a717bcb,
         type: 3}
