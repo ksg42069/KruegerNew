@@ -11,17 +11,27 @@ public class LabSwitchController : MonoBehaviour
 
     private void Start()
     {
-        rotz = this.gameObject.transform.rotation.eulerAngles.z;
-        
         switchLight.GetComponent<Renderer>().material = sRed;
     }
     private void Update()
     {
-        Debug.Log(rotz);
-
-        if (correctValue - 7.5f < rotz && rotz < correctValue + 7.5f)
-            switchLight.GetComponent<Renderer>().material = sGreen;
+        if (this.gameObject.transform.localEulerAngles.z>180)
+        {
+            rotz = this.gameObject.transform.localEulerAngles.z - 360;
+        }
         else
-            switchLight.GetComponent<Renderer>().material = sRed;
+        {
+            rotz = this.gameObject.transform.localEulerAngles.z;
+        }
+
+        if (correctValue - 5f < rotz && rotz < correctValue + 5f)
+        {
+            switchLight.GetComponent<Renderer>().material = sGreen;
+        }
+        else
+        {
+            switchLight.GetComponent<Renderer>().material = sRed;            
+        }
+            
     }
 }
