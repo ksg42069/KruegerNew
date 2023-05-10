@@ -103,7 +103,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _Fill: 0.642
+    - _Fill: 0.138
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -118,8 +118,8 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WobbleX: 6.9
-    - _WobbleZ: -131.1
+    - _WobbleX: 8.8
+    - _WobbleZ: -138.1
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
