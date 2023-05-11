@@ -127,7 +127,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c60b5533e263bc84d9d7150f187bba17, type: 3}
+        m_Texture: {fileID: 2800000, guid: 008ac116fbee45e40bdf274c14b95007, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTex:
